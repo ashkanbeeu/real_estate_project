@@ -1,0 +1,5 @@
+# Required packages
+# command: pip install -r requirements.txt
+
+django==2.2
+
