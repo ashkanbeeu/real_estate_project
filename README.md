@@ -1,0 +1,3 @@
+# Realtor Project
+
+Practising Django
