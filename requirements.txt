@@ -2,4 +2,6 @@
 # command: pip install -r requirements.txt
 
 django==2.2
+# psycopg2==2.8.5
+# psycopg2-binary==2.8.5
 
