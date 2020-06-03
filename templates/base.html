@@ -11,21 +11,24 @@
   <link rel="stylesheet" href="{%static 'css/all.css' %}">
   <!-- Bootstrap --> 
   <link rel="stylesheet" href="{%static 'css/bootstrap.css' %}">
-  <!-- lightbox -->
-  <link rel="stylesheet" href="{%static 'css/lightbox.min.css' %}">
   <!-- Custom -->
   <link rel="stylesheet" href="{%static 'css/style.css' %}">
+  <!-- lightbox -->
+  <link rel="stylesheet" href="{%static 'css/lightbox.min.css' %}">
 </head>
 
 <body>
   <!-- Topbar -->
   {% include 'partials/_topbar.html' %}
+
   <!-- Navbar -->
   {% include 'partials/_navbar.html' %}
 
+  <!-- index.html -->
   {% block content %}
   {% endblock content %}
 
+  <!-- Footer -->
   {% include 'partials/_footer.html' %}
 
 
