@@ -1,0 +1,21 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block title %}
+  {{ title }} | Best Home
+{% endblock title %}
+
+{% block branding %}
+<h1 id="site-name"> 
+  <a href="{% url 'admin:index' %}"> 
+  <img src="{% static 'img/logo.png' %}" alt="best home" width='70' height='40'>
+  BEST HOME
+  </a>
+</h1>
+{% endblock branding %}
+
+{% block extrastyle %}
+  <link rel='stylesheet' href='{% static 'css/admin.css' %}'>
+{% endblock extrastyle %}
+
+
