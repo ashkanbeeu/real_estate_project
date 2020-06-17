@@ -1,0 +1,7 @@
+to fix << 'Listing' has no 'objects' member >> issue:
+1- pip install pylint-django
+2- confiqure settings:
+  "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+  ],
