@@ -2,6 +2,8 @@
 
 {% load humanize %}
 
+{% block title%} | Login {% endblock %}
+
 {% block content %}
 
 <section id="login" class="bg-light py-5">
@@ -14,6 +16,8 @@
                 <i class="fas fa-sign-in-alt"></i> Login</h4>
             </div>
             <div class="card-body">
+             <!-- Alert -->
+              {% include 'partials/_alerts.html' %}
               <form action="{% url 'accounts_login' %}" method='POST'>
                 {% csrf_token %}
                 <div class="form-group">

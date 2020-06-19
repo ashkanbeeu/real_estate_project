@@ -2,8 +2,14 @@
 
 {% load humanize %}
 
+{% block title%} | Home {% endblock %}
+
 {% block content %}
 <!-- Showcase -->
+
+  <!-- Alert -->
+  {% include 'partials/_alerts.html' %}
+
 <section id="showcase">
 <div class="container text-center">
     <div class="home-search p-5">
